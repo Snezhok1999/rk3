@@ -1,4 +1,6 @@
 #21
+Zadanie 1
+
 CREATE TABLE IF NOT EXISTS `Tovari`
 (
 `id` INT(100) unsigned NOT NULL AUTO_INCREMENT,
@@ -18,12 +20,10 @@ INSERT INTO `Tovari`(`Name`,`Manufacturer`,`Description`,`Count`) VALUES
 ('USA', 'USA', 'Soso', 1),
 ('Block', 'USA', 'Soso', 0);
 
-SELECT * FROM Tovari;
+Zadanie 2
 
-SELECT * FROM Tovari
-DELETE FROM Tovari
-WHERE `Count`= 0;
+DELETE FROM `tovari` WHERE `tovari`.`Count` = 0;
 
-SELECT * FROM Tovari
-WHERE Name = `K`
-AND (`Count` <300<1000);
+Zadanie 3
+
+SELECT `Name` FROM `tovari` WHERE `Name` LIKE 'К%' AND `Count` >= 300 AND `Count` <= 1000;
