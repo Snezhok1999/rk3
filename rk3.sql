@@ -11,10 +11,10 @@ PRIMARY KEY (`id`)
 
 INSERT INTO `Tovari`(`Name`,`Manufacturer`,`Description`,`Count`) VALUES
 ('Computer', 'Franse', 'Soso', 5),
-('USA', 'Russia', 'Soso', 8),
+('USA', 'Russia', 'Not_Good', 8),
 ('Mouse', 'Chayna', 'Soso', 0),
 ('Block', 'Russia', 'Soso', 3),
-('Computer', 'Franse', 'Soso', 4),
+('Computer', 'Franse', 'Good', 4),
 ('USA', 'USA', 'Soso', 1),
 ('Block', 'USA', 'Soso', 0);
 
